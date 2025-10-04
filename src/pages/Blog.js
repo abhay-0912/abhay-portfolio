@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
@@ -8,7 +8,7 @@ const Blog = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   // Mock blog posts data - in real app, this would come from API
-  const mockPosts = [
+  const mockPosts = useMemo(() => [
     {
       id: 1,
       title: "Building Secure AI Applications: A Developer's Guide",
@@ -65,7 +65,7 @@ const Blog = () => {
       featured: false,
       image: "/blog/pentest-guide.jpg"
     }
-  ];
+  ], []);
 
   useEffect(() => {
     // Simulate API call

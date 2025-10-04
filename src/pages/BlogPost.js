@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
@@ -12,7 +12,7 @@ const BlogPost = () => {
   const [relatedPosts, setRelatedPosts] = useState([]);
 
   // Mock post data - in real app, this would come from API
-  const mockPosts = {
+  const mockPosts = useMemo(() => ({
     'building-secure-ai-applications': {
       id: 1,
       title: "Building Secure AI Applications: A Developer's Guide",
@@ -289,7 +289,7 @@ These tools form the foundation of a developer's security toolkit. Regular use a
       featured: false,
       image: "/blog/cyber-tools.jpg"
     }
-  };
+  }), []);
 
   useEffect(() => {
     // Simulate API call
