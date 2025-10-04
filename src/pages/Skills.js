@@ -9,12 +9,11 @@ const Skills = () => {
       skills: [
         { name: "React", level: 95, icon: "⚛️" },
         { name: "JavaScript", level: 90, icon: "🟨" },
-        { name: "TypeScript", level: 85, icon: "🔷" },
+        
         { name: "HTML5", level: 95, icon: "🟧" },
         { name: "CSS3", level: 90, icon: "🎨" },
-        { name: "Tailwind CSS", level: 90, icon: "💨" },
-        { name: "Next.js", level: 80, icon: "▲" },
-        { name: "Vue.js", level: 75, icon: "💚" }
+       
+        
       ]
     },
     {
@@ -23,26 +22,26 @@ const Skills = () => {
       skills: [
         { name: "Node.js", level: 85, icon: "🟢" },
         { name: "Python", level: 80, icon: "🐍" },
+        { name: "PHP", level: 80, icon: "🐘" },
         { name: "Express.js", level: 85, icon: "🚂" },
-        { name: "Django", level: 75, icon: "🎯" },
-        { name: "REST APIs", level: 90, icon: "🔌" },
-        { name: "GraphQL", level: 70, icon: "📊" },
-        { name: "Microservices", level: 75, icon: "🔗" },
-        { name: "Serverless", level: 70, icon: "☁️" }
+        { name: "MongoDB", level: 85, icon: "🍃" },
+        
+        { name: "Flask", level: 70, icon: "🐍"},
+        { name: "Java", level: 65, icon: "☕"},
+        { name: "C", level: 70, icon: "🟩"},
       ]
     },
     {
       title: "Database & Cloud",
       color: "from-purple-500 to-pink-400", 
       skills: [
-        { name: "MongoDB", level: 85, icon: "🍃" },
-        { name: "PostgreSQL", level: 80, icon: "🐘" },
+        
         { name: "MySQL", level: 75, icon: "🐬" },
-        { name: "Redis", level: 70, icon: "🔴" },
-        { name: "AWS", level: 80, icon: "☁️" },
+        { name: "IBM Cloud", level: 70, icon: "🖥️" },
+       
         { name: "Docker", level: 75, icon: "🐳" },
-        { name: "Kubernetes", level: 65, icon: "⚓" },
-        { name: "Firebase", level: 85, icon: "🔥" }
+       
+        { name: "Supabase", level: 85, icon: "🔥" }
       ]
     },
     {
@@ -50,12 +49,11 @@ const Skills = () => {
       color: "from-yellow-500 to-orange-400",
       skills: [
         { name: "Git", level: 90, icon: "📦" },
+        
         { name: "GitHub Actions", level: 80, icon: "⚙️" },
-        { name: "Jenkins", level: 70, icon: "👨‍💼" },
-        { name: "Webpack", level: 75, icon: "📦" },
+        
         { name: "Linux", level: 80, icon: "🐧" },
-        { name: "Nginx", level: 70, icon: "🌐" },
-        { name: "Monitoring", level: 75, icon: "📊" },
+
         { name: "Testing", level: 85, icon: "🧪" }
       ]
     }
@@ -63,21 +61,21 @@ const Skills = () => {
 
   const certifications = [
     {
-      name: "AWS Certified Developer",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      level: "Associate"
-    },
-    {
-      name: "Google Cloud Professional",
-      issuer: "Google Cloud",
-      date: "2023", 
+      name: "Cyber Security",
+      issuer: "IBM",
+      date: "2025",
       level: "Professional"
     },
     {
-      name: "React Developer Certification",
-      issuer: "Meta",
-      date: "2022",
+      name: "IBM Cloud Fundamentals",
+      issuer: "IBM",
+      date: "2024",
+      level: "Professional"
+    },
+    {
+      name: "Generative AI",
+      issuer: "Google",
+      date: "2024",
       level: "Professional"
     }
   ];
@@ -231,7 +229,7 @@ const Skills = () => {
             languages, and methodologies to stay at the forefront of web development.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            {["AI/ML Integration", "Web3 Technologies", "Cloud Architecture", "Performance Optimization"].map((area, index) => (
+            {["AI/ML Integration", "Web3 Technologies", "Cloud Architecture", "Cyber Security"].map((area, index) => (
               <motion.span
                 key={area}
                 className="px-4 py-2 bg-gradient-to-r from-cyber-green to-cyber-cyan text-dark-navy font-semibold rounded-full text-sm"

@@ -274,14 +274,14 @@ const Home = () => {
               transition={{ duration: 0.3 }}
             >
               <div className="text-cyber-cyan text-3xl mb-4">🔒</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Encryption Tool</h3>
+              <h3 className="text-xl font-semibold text-white mb-2">Secure File Sharing App</h3>
               <p className="text-gray-400 mb-4">
-                CLI application for data encryption/decryption with multiple cipher implementations.
+                Full-stack platform for encrypted file sharing with secure authentication and role-based access.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="px-2 py-1 bg-cyber-green/20 text-cyber-green text-xs rounded">Python</span>
-                <span className="px-2 py-1 bg-red-500/20 text-red-400 text-xs rounded">Cryptography</span>
-                <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-xs rounded">CLI</span>
+                <span className="px-2 py-1 bg-red-500/20 text-red-400 text-xs rounded">Cybersecurity</span>
+                <span className="px-2 py-1 bg-blue-500/20 text-blue-400 text-xs rounded">GUI</span>
               </div>
               <Link 
                 to="/projects" 
