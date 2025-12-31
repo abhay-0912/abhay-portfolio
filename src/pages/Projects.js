@@ -104,6 +104,26 @@ const Projects = () => {
       image: "/projects/securefilesharing.png",
       status: "In Progress",
       year: "2025"
+    },
+    {
+      id: 6,
+      title: "Sanskriti.Traditional – Culture-First E-Commerce Platform",
+      category: "E-Commerce / Frontend / Product",
+      description: "Culture-first e-commerce platform showcasing authentic Indian handcrafted products with a trust-driven, UX-optimized buying experience.",
+      longDescription: "Sanskriti.Traditional is a startup-style e-commerce platform designed to connect Indian artisans with conscious buyers. The platform focuses on cultural storytelling, artisan visibility, and frictionless commerce. Users can browse products without forced login, authenticate only at checkout, manage carts, wishlists, and accounts, and track orders seamlessly. The project emphasizes mobile-first design, UX psychology, and real-world e-commerce flows.",
+      technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "Netlify"],
+      features: [
+        "Culture-first landing and discovery experience",
+        "Product browsing without forced authentication",
+        "Optimized cart, checkout, and order success flow",
+        "User login, wishlist, and account dashboard",
+        "Order tracking and post-purchase experience",
+        "Mobile-first, responsive UI"
+      ],
+      githubUrl: "https://github.com/abhay-0912/e-commerce",
+      image: "/projects/sanskriti-traditional.png",
+      status: "Live",
+      year: "2025"
     }
   ];
 
