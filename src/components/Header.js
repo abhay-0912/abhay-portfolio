@@ -66,7 +66,7 @@ const Header = () => {
             
             {/* Download Resume Button */}
             <a
-              href="/Abhay_Srivastava_Resume.pdf"
+              href="/Abhay's Resume.pdf"
               download
               className="cyber-button flex items-center space-x-2"
             >
